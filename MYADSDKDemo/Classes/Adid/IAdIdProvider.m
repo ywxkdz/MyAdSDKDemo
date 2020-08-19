@@ -8,11 +8,6 @@
 
 #import "IAdIdProvider.h"
 
-
-@interface IAdIdProvider ()
-
-@end
-
 @implementation IAdIdProvider
 
 /** 竖版激励视频 */

@@ -6,6 +6,7 @@
 //  Copyright © 2019 bwhx. All rights reserved.
 //
 #import <Foundation/Foundation.h>
+#import <MSAdSDK/MSAdSDK.h>
 
 @interface IAdIdProvider : NSObject
 
