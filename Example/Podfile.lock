@@ -21,7 +21,7 @@ PODS:
   - Masonry (1.1.0)
   - MYAdSDK (0.0.10):
     - AFNetworking
-  - MYADSDKDemo (0.0.4):
+  - MYADSDKDemo (0.0.5):
     - Masonry
     - MYAdSDK
 
@@ -48,7 +48,7 @@ SPEC CHECKSUMS:
   GDTMobSDK: a1fddadfa32cf4e95d3f70c96677a35c156989f8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MYAdSDK: af8e9b83542d8a89ed8a56e3ced4ca4310a194b2
-  MYADSDKDemo: 151ae0373316c7a7ea21ce2d5dd3835d798e0f9a
+  MYADSDKDemo: f1e7ada5f7b22580ce126cf69aa23cbba5d8399c
 
 PODFILE CHECKSUM: dc3bc6798d290e9c25dd6131d0ba84e4e8805751
 

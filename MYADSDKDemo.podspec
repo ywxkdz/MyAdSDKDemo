@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYADSDKDemo'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'Short description of MYADSDKDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -24,6 +24,8 @@ Pod::Spec.new do |s|
   s.author           = { 'Liumao' => '12-wangwei@users.noreply.git.adxdata.com' }
   s.source           = { :git => 'https://github.com/ywxkdz/MyAdSDKDemo.git', :tag => s.version.to_s }
   s.static_framework     = true
+
+  s.platform    = :ios
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MYADSDKDemo/Classes/**/*'
