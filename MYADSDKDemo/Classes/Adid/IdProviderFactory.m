@@ -6,10 +6,9 @@
 //  Copyright © 2019 bwhx. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "MSDefaultSet.h"
 #import "IdProviderFactory.h"
-
+#import "MSDefaultSet.h"
+#import "IAdIdProvider.h"
 
 MSPlatformName const MSPlatformNameMS  = @"meishu";
 MSPlatformName const MSPlatformNameBU = @"csj";

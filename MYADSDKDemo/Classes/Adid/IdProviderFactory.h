@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IAdIdProvider.h"
 
 typedef NSString * MSPlatformName;
 
@@ -18,8 +17,6 @@ extern MSPlatformName const _Nonnull MSPlatformNameBD;
 extern MSPlatformName const _Nonnull MSPlatformNameDN;
 
 @interface IdProviderFactory : NSObject
-
-+(IAdIdProvider * _Nonnull)  getProvider:(NSString * _Nonnull) platformName;
 
 +(NSString *_Nonnull) getPidFor:(MSPlatformName _Nonnull ) platformName
                          adType:(MSAdType)adtype;

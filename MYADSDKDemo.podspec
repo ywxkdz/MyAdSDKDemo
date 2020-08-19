@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYADSDKDemo'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Short description of MYADSDKDemo.'
 
 # This description is used to generate tags and improve search results.
