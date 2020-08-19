@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Liumao/MYADSDKDemo'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Liumao' => '12-wangwei@users.noreply.git.adxdata.com' }
-  s.source           = { :git => 'https://github.com/Liumao/MYADSDKDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ywxkdz/MyAdSDKDemo.git', :tag => s.version.to_s }
   s.static_framework     = true
   s.ios.deployment_target = '9.0'
 
