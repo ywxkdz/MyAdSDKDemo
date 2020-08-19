@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Bytedance-UnionAD (3.1.0.9)
+  - GDTMobSDK (4.11.10):
+    - GDTMobSDK/GDTMobSDK (= 4.11.10)
+  - GDTMobSDK/GDTMobSDK (4.11.10)
+  - Masonry (1.1.0)
+  - MYAdSDK (0.0.10):
+    - AFNetworking
+  - MYADSDKDemo (0.0.1):
+    - Masonry
+    - MYAdSDK
+
+DEPENDENCIES:
+  - Bytedance-UnionAD
+  - GDTMobSDK
+  - MYADSDKDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Bytedance-UnionAD
+    - GDTMobSDK
+    - Masonry
+    - MYAdSDK
+
+EXTERNAL SOURCES:
+  MYADSDKDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Bytedance-UnionAD: b841f3266c48da4f1153032589ec95dc1f26e131
+  GDTMobSDK: a1fddadfa32cf4e95d3f70c96677a35c156989f8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MYAdSDK: af8e9b83542d8a89ed8a56e3ced4ca4310a194b2
+  MYADSDKDemo: 7163b98b53bd7b129ff06ccff996c43d8896c9b0
+
+PODFILE CHECKSUM: dc3bc6798d290e9c25dd6131d0ba84e4e8805751
+
+COCOAPODS: 1.9.3

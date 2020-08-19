@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "IAdIdProvider.h"
-#import "BDIdProvider.h"
-#import "MSIdProvider.h"
-#import "BUIdProvider.h"
-#import "GDTIdProvider.h"
-#import "DNAdIdProvider.h"
 
 typedef NSString * MSPlatformName;
 
