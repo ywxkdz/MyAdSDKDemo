@@ -5,6 +5,6 @@
 #import <MSAdSDK/MSAdSDK.h>
 #import <Masonry/Masonry.h>
 #import "MSQuickCreate.h"
-
+#import "IAdIdProvider.h"
 
 #endif
