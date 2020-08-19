@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MYADSDKDemo_Example' do
+
+  pod 'MYADSDKDemo', :path => '../'
+  
+  pod 'GDTMobSDK'
+  
+  #穿山甲
+  pod 'Bytedance-UnionAD'
+  
+  target 'MYADSDKDemo_Tests' do
+    inherit! :search_paths
+
+  end
+end
